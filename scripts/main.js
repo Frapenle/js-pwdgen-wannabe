@@ -8,7 +8,12 @@ console.log(userData);
 const userDataSpaced = `${userName} ${userSurname} ${prefColor} ${shortYear}`;
 console.log(userDataSpaced);
 
+
+document.getElementById("nome").innerHTML = (userName);
+document.getElementById("cognome").innerHTML = (userSurname);
+document.getElementById("colore").innerHTML = (prefColor);
+
+
 document.getElementById("userdata").innerHTML = (userData);
 
 document.getElementById("userdata-spaced").innerHTML = (userDataSpaced);
-
